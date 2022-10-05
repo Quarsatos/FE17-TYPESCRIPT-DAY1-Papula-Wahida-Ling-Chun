@@ -45,15 +45,44 @@
 
 // Exercise 3
 
-let namesArr: string[] = ["John", "Mike", "Franziska", "Maria"];
+// let namesArr: string[] = ["John", "Mike", "Franziska", "Maria"];
 
-console.log(namesArr)
+// for(let i=0; i < namesArr.length; i++){
+//     console.log(`Index: ${i}`);
+//     console.log(`Value: ${namesArr[i]}`);
+//     console.log(`Value/Index: ${namesArr[i]}/${i}`);
+// }
+// console.log("---------")
 
-for(let i=0; i < namesArr.length; i++){
-    console.log(i);
-    console.log(`${namesArr[i]}`);
-    console.log(`${namesArr[i]} ${i}`);
-}
+
+
+// for each loop block
+
+// namesArr.forEach(function(val,i){
+//     console.log(`Index: ${i}`)
+//     console.log(`Value: ${val}`)
+//     console.log(`Value/Index: ${val}/${i}`)
+// })
+// console.log("---------")
+
+
+
+// for in loop block
+
+// for (let [i] of Object.entries(namesArr)){
+//     console.log(i);
+//   };
+
+// console.log("---------")
+
+// for(let names of namesArr){
+//     console.log(names)
+// }
+// console.log("---------")
+
+// for (let [i, val] of Object.entries(namesArr)){
+//     console.log(val, i);
+//   };
 
 
 
