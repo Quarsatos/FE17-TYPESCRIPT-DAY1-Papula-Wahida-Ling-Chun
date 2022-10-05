@@ -15,7 +15,6 @@
 //     for(let k = 0; k <= 10; k++){
 //         let result = i * k;
 //         console.log(`${i} x ${k} = ${result}`);
-//         // console.log("-----------");
 //     }
 //     console.log(`-------------------`);    
 //     console.log(`completed block ${i}`);    
@@ -58,6 +57,8 @@
 
 // for each loop block
 
+// namesArr.forEach(function()
+
 // namesArr.forEach(function(val,i){
 //     console.log(`Index: ${i}`)
 //     console.log(`Value: ${val}`)
@@ -67,11 +68,11 @@
 
 
 
-// for in loop block
+// for of loop block
 
 // for (let [i] of Object.entries(namesArr)){
 //     console.log(i);
-//   };
+// };
 
 // console.log("---------")
 
@@ -82,10 +83,4 @@
 
 // for (let [i, val] of Object.entries(namesArr)){
 //     console.log(val, i);
-//   };
-
-
-
-
-
-
+// };
