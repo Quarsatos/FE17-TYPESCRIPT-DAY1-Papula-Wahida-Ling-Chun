@@ -21,6 +21,7 @@
 // Exercise 2
 let names = { fname: "Manuel", lname: "Papula" };
 let nameArray = Object.values(names);
+document.write(`${names.fname} ${names.lname} <br><br>`);
 for (let i = 0; i <= 10; i++) {
     document.write(`${nameArray[0]} ${i} <br>`);
 }
@@ -32,3 +33,4 @@ let test = function () {
     }
 };
 test();
+// Exercise 3
