@@ -18,3 +18,17 @@
 //     console.log(`completed block ${i}`)    
 //     console.log(`-------------------`)    
 // }
+// Exercise 2
+let names = { fname: "Manuel", lname: "Papula" };
+let nameArray = Object.values(names);
+for (let i = 0; i <= 10; i++) {
+    document.write(`${nameArray[0]} ${i} <br>`);
+}
+let test = function () {
+    for (let i = 0; i <= 10; i++) {
+        setTimeout(() => {
+            console.log(`${nameArray[1]} ${i}`);
+        }, 5000);
+    }
+};
+test();
