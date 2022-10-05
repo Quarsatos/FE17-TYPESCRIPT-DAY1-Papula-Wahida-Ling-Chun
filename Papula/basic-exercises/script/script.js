@@ -34,13 +34,13 @@
 // }
 // test()
 // Exercise 3
-let namesArr = ["John", "Mike", "Franziska", "Maria"];
-for (let i = 0; i < namesArr.length; i++) {
-    console.log(`Index: ${i}`);
-    console.log(`Value: ${namesArr[i]}`);
-    console.log(`Value/Index: ${namesArr[i]}/${i}`);
-}
-console.log("---------");
+// let namesArr: string[] = ["John", "Mike", "Franziska", "Maria"];
+// for(let i=0; i < namesArr.length; i++){
+//     console.log(`Index: ${i}`);
+//     console.log(`Value: ${namesArr[i]}`);
+//     console.log(`Value/Index: ${namesArr[i]}/${i}`);
+// }
+// console.log("---------")
 // for each loop block
 // namesArr.forEach(function(val,i){
 //     console.log(`Index: ${i}`)
